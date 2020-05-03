@@ -14,3 +14,5 @@ Vea Digital - https://www.veadigital.com.ar/ \
 Walmart Online - Tematica -> Mercado online, esta tiene un diseño algo mas elaborado https://www.veadigital.com.ar/ \
 RES Online -> Carniceria online, diseño estandar con funcionalidades que estan buenas para replicar. https://www.res.com.ar/ \
 
+Link de Trello: https://trello.com/b/7CijyoQP/sprint-2 \
+
