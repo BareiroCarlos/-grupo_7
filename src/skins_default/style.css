@@ -1,0 +1,143 @@
+/*
+Theme Name: Flavours
+Theme URI: http://wptest.themesmart.net/
+Author: ThemesMartGroup
+Author URI: http://www.themesmart.net/
+Description: Flavours wordpress Theme
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns,  left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: flavours
+*/
+/* TABLE OF CONTENTS
+
+1.      BODY
+2.      LAYOUT
+2a.     Base Columns
+2b.     1 Column Layout
+2c.     2 Column Layout
+2d.     3 Column Layout
+
+
+*/
+/* BEGIN OF STYLING */
+
+/* 1. BODY */
+body {
+	color: #333;
+	font-size: 13px;
+	font-family: "Open Sans", sans-serif;
+	padding: 0;
+	margin: auto;
+	line-height: 1.55;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #da2c2a;
+	text-decoration: underline;
+}
+legend {
+	display: none;
+}
+/* 2.  LAYOUT */
+
+
+/* 2a. Base Columns */
+.col-left {
+	margin-bottom: 0px;
+}
+.col-main {
+}
+.col-right {
+	margin-bottom: 0px;
+}
+/* 2b. 1 Column Layout */
+.col1-layout .header-background-default {
+	margin: 20px;
+	padding: 0;
+}
+.col1-layout .col-main {
+	float: none;
+	width: auto;
+}
+/* 2c. 2 Column Layoutt */
+.col2-left-layout .col-main {
+}
+.col2-right-layout .col-main {
+}
+.col2-right-layout ol.opc .col-md-4 {
+	margin-right: 15px;
+}
+/* 2d. 3 Column Layout */
+.col3-layout .col-main {
+}
+.col3-layout .col-wrapper {
+	float: left;
+	width: 780px;
+}
+.col3-layout .col-wrapper .col-main {
+	float: right;
+}
+.main-container {
+	min-height: 400px;
+	padding: 20px 0 0px;
+}
+#bag-seller-slider .addcart span {
+	display: none;
+}
+#recommend-slider .addcart span {
+	display: none;
+}
+
+.product-essential .variations_form .variations {
+	margin-bottom: 10px;
+}
+.product-shop .variations_form .label label, .product-shop .variations_form .add-to-box .single_variation_wrap label {
+	display: block;
+	float: left;
+	margin-bottom: 5px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+	margin-right: 8px;
+	color: #333;
+	font-size: 12px !important;
+	font-weight: bold;
+	line-height: 38px;
+}
+#mega-menu-wrap-secondary #mega-menu-secondary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a {
+	text-align: left !important;
+}
+#mega-menu-wrap-secondary #mega-menu-secondary > li.mega-menu-item > a {
+	text-transform: none !important;
+}
+.mega-menu-item ul.product_list_widget li img {
+	width: 80px !important;
+	box-shadow: none !important;
+	margin: 0 15px 0 0 !important;
+	float: left !important;
+}
+.mc4wp-form input[type=submit] {
+	padding: 8px 20px !important;
+	top: -41px !important;
+	line-height: inherit;
+}
+.mini-cart ul#cart-sidebar li {
+	list-style: none;
+}
+.mini-products-list .detail-item .product-details-bottom .price {
+	display: inline-block !important;
+}
+
+/* home page add to cart css */
+.add_cart a.btn-cart.added:after, .add_cart a.btn-cart.added:after {
+    font-family: WooCommerce;
+    content: "\e017";
+    margin-left: .53em;  
+}
+.add_cart a.btn-cart.loading{opacity:.9;}
+.add_cart a.btn-cart.loading:after{font-family:WooCommerce;content:"\e01c";}
